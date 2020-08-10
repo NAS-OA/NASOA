@@ -36,7 +36,36 @@ network = ETNas(MODEL_MAPPINGS[model_name])
 network.load_state_dict(torch.load("{}.pth".format(MODEL_MAPPINGS[model_name])))
 ```
 
-All pre-trained model can be download from:
+All pre-trained model can be download from: [Google Drive](https://drive.google.com/file/d/1cwE1RGsNoBR8enOr79-iw45Porkglv_k/view?usp=sharing).  
+After unzip the file, the file structure should be like:
+```
+ET-NAS
+──ET-NAS-A
+│      2-_32_2-11-112-1121112.pth
+├─ET-NAS-B
+│      031-_32_1-1-221-11121.pth
+├─ET-NAS-C
+│      011-_32_2-211-2-111122.pth
+├─ET-NAS-D
+│      031-_64_1-1-221-11121.pth
+├─ET-NAS-E
+│      10001-_64_4-111-11122-1111111111111112.pth
+├─ET-NAS-F
+│      011-_64_21-211-121-11111121.pth
+├─ET-NAS-G
+│      10001-_64_4-111111111-211112111112-11111.pth
+├─ET-NAS-H
+│      211-_64_41-211-121-11111121.pth
+├─ET-NAS-I
+│      02031-a02_64_111-2111-21111111111111111111111-211.pth
+├─ET-NAS-J
+│      211-_64_411-2111-21111111111111111111111-211.pth
+├─ET-NAS-K
+│      02031-a02_64_1121-111111111111111111111111111-21111111211111-1.pth
+└─ET-NAS-L
+       23311-a02c12_64_211-2111-21111111111111111111111-211.pth
+```
+where each checkpoint file is named with the corresponding architecture encoding and saved into a folder with the series name.
 
 #### Example: Running test on Imagenet
 
