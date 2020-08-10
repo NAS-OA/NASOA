@@ -1,6 +1,6 @@
 # NASOA
 
-This repository is for our paper "**Faster Task-oriented Online Fine-tuning**".
+This repository is for our paper "**Faster Task-oriented Online Fine-tuning**", which contains the Efficient Training model zoo for fast training and fine-tuning.
 
 ## Efficient Training (ET-NAS) Model-Zoo 
 
@@ -37,7 +37,7 @@ network.load_state_dict(torch.load("{}.pth".format(MODEL_MAPPINGS[model_name])))
 ```
 
 All pre-trained model can be download from: [Google Drive](https://drive.google.com/file/d/1cwE1RGsNoBR8enOr79-iw45Porkglv_k/view?usp=sharing).  
-After unzip the file, the file structure should be like:
+After unzipping the file, the file structure should be like:
 ```
 ET-NAS
 ──ET-NAS-A
