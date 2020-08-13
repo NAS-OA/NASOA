@@ -2,6 +2,10 @@
 
 This repository is for our paper "**Faster Task-oriented Online Fine-tuning**", which contains the Efficient Training model zoo for fast training and fine-tuning.
 
+## Faster Task-oriented Online Fine-tuning
+Exploring how to adapt efficient neural networks to various downstream tasks online.
+![overview](Overview.pdf)
+
 ## Efficient Training (ET-NAS) Model-Zoo 
 
 | Model Name | MParam | GMac  | Top-1 | Inference Time  (ms) | Training Step Time (ms) |
