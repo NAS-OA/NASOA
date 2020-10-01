@@ -4,7 +4,7 @@ This repository is for our paper "**Faster Task-oriented Online Fine-tuning**", 
 
 ## Faster Task-oriented Online Fine-tuning
 Exploring how to adapt efficient neural networks to various downstream tasks online.
-![overview](Overview.png)
+![overview](overview_v2.png)
 
 ## Efficient Training (ET-NAS) Model-Zoo 
 We provide our state-of-the-art Efficient Training model-zoo for fast training and fine-tuning to save computational cost. 
